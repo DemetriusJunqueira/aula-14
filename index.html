@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Materiais de Construção</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>juninho tijolos</h1>
+        <form class="pesquisa" action="#" method="GET">
+            <input type="text" name="query" placeholder="Pesquisar...">
+            <button type="submit">Buscar</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="album">
+        <h2>Nossos Materiais</h2>
+        <div class="galeria">
+            <img src="img/material1.jpg" alt="Material 1">
+            <img src="img/material2.jpg" alt="Material 2">
+            <img src="img/material3.jpg" alt="Material 3">
+            <img src="img/material4.jpg" alt="Material 4">
+        </div>
+    </section>
+
+    <footer>
+        <form class="orcamento" action="#" method="POST">
+            <h3>Solicite seu orçamento</h3>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Descrição:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+</body>
+</html>
